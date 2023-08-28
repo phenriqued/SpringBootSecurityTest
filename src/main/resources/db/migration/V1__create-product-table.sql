@@ -1,0 +1,6 @@
+CREATE TABLE tb_product (
+    id TEXT PRIMARY KEY UNIQUE NOT NULL,
+    name TEXT NOT NULL,
+    price DECIMAL NOT NULL
+);
+
