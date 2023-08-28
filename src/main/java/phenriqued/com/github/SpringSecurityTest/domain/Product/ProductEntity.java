@@ -21,5 +21,8 @@ public class ProductEntity {
     private String name;
     private BigDecimal price;
 
-
+    public ProductEntity(ProductRequestDTO data) {
+        this.name = data.name();
+        this.price = data.price();
+    }
 }
